@@ -1,4 +1,4 @@
-@media (max-width:966px) 
+@media (max-width:650px) 
 {
     @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Noto+Sans+KR:500&display=swap');
 
@@ -9,22 +9,59 @@
 
 }
 
+
+
+
+
+
+
 header{
-    background-color: #feb72b;
+    background-color:#7f78d2;
     display: flex;
 }
 .logo{
-    padding-bottom: 2px;
-    margin-top: 5px;
-    margin-left: 6px;
+    
+    margin-top: 8px;
+    margin-left: 15px;
     margin-right: auto;
     color: #21243d;
 }
+
+
+
+.logo img{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav_button{
     margin-left: auto;
     float: left;
-    margin-top: 10px;
-    margin-right: 5px;
+    margin-top:19px;
+    margin-right: 12px;
     
 }
 nav{
@@ -32,22 +69,47 @@ nav{
     margin: auto;
     text-align: center;
 }
-h4{
-    font-family: 'Noto Sans KR', sans-serif;
+h3{
+    font-size: 39px;
 }
 .nav_button button{
+    font-size: 16px;
     border-radius: 3px;
-    height: 27px;
+    height: 33px;
     margin-bottom: 9px;
-    width: 73px;    
+    width: 79px;    
     border: none;
+    color: white;
 
-    background-color: #527318;
+    background-color: #d62635;
 }
 
     
-   
+  /* designing the top_element  */
 
+.top_element{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+
+.top_element p{
+    margin: 10px auto;
+    letter-spacing: 2px;
+    height: 120px;
+    line-height: 25px;
+    
+}
+.top_element h4{
+    margin: 15px auto;
+    font-weight: 600;
+    font-size: 25px;
+}
+.top_element_button{
+   display: flex ;
+   margin: 15px auto;
+
+}
 .centre{
    margin-bottom: 20px;
     margin-top: 20px;
@@ -62,32 +124,84 @@ h4{
 
 
 .centre_button{
-    width: 70px;
-    height: 30px;
+    width: 92px;
+    height: 36px;
 border: none;
 font-size: 15px;
 color: snow;
 border-radius: 2px;
-    background-color: slateblue;
+    background-color: #527318;
     margin: 10px 20px;
 }
+
+.centre_button i{
+    color: white;
+}
+
+.login_box_top{
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 hr{
     
     width: 50px;
     color: red;
     border: none;
-   
     border-bottom: 5px dotted red;
+   margin:10px auto;
+
 }
+.login_box input, .login_box span{
+    display: flex;
+}
+.login_box span b{
+   margin: auto;
+    width: 250px;
+text-align: center;
+
+}
+.login_box span{
+    text-align: center;
+}
+.login_box span a{
+    margin:5px auto;
+     width: 250px;
+ text-decoration: none;
+ color: black;
+ }
+ .login_box span a:hover{
+     color: red;
+ }
+
+
 
 .login_box{
-   
+    background-image: url(bg.jpg);
+    background-size: cover;
+background-position: center;
+  
     box-sizing: border-box;
-   
-    width: 68%;
-    height: 192px;
+   padding-top: 15px;
+    width: 100%;
+    height: 222px;
     border-radius: 4px;
+    margin: auto;
 
 }
 .login_box_inputs{
@@ -95,14 +209,17 @@ hr{
     border: none;
     border-bottom: 2px solid brown;
     width: 200px;
+    margin: auto;
     margin-bottom: 8px;
+    text-align: center;
   }
 .login_button{
     border-radius: 3px;
     height: 30px;
-    width: 73px;    
+    width: 73px;   
+    text-align: center;
+    margin: 5px auto; 
     border: none;
-
     background-color: #527318;
 }
 
@@ -112,11 +229,46 @@ hr{
 
 
 
+.barcode{
+    height: 100px;
+    width: 100px;
+
+   margin: auto;
+   border: 2px solid black;
+}
+.barcode img{
+    height: 100%;
+    width: 100%;
+}
+
+.payment_info{
+    width: 98%;
+    margin: 5px auto;
+    text-align: center;
+}
+.payment_info span h4{
+    font-size: 25px;
+}
+.payment_logo{
+    margin: 8px 3px;
+}
 
 
 
+
+
+
+
+
+
+
+footer{
+    background-color: #7f78d2;
+}
 .contact_section{
-    background-color: #feb72b;
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
 }
 
 .contact_logo{
@@ -126,21 +278,24 @@ hr{
 
 
 
-}
 
-.link_mid center{
-   display: flex;
-   flex-direction: row;
-   width: 375px;
-text-align: center;
-margin: auto;
+
+
+
+.link_mid{
+    margin: 10px 2px;
+    display: flex;
 }
-.link_mid center div i{
+.category{
+  padding-top: 7%;
+ height: 100px;
+width: 150px;
+margin: 2px auto;
+text-align: center;
+}
+.category i{
     color: red;
 }
-
-
-
 
 .link_mid center div{
     margin: 20px 10px;
